@@ -127,16 +127,17 @@ def handle_input():
 def recursive_traverse(start_jolts, all_paths, current_path, data):
     next_jolts = []
 
-    if start_jolts == 0:
+    # TODO: Implement this
+    # if start_jolts == 0:
 
-    if data.get(start_jolts - 1, False):
-        next_jolts.append(start_jolts - 1)
+    # if data.get(start_jolts - 1, False):
+    #     next_jolts.append(start_jolts - 1)
     
-    if data.get(start_jolts - 2, False):
-        next_jolts.append(start_jolts - 2)
+    # if data.get(start_jolts - 2, False):
+    #     next_jolts.append(start_jolts - 2)
 
-    if data.get(start_jolts - 3, False):
-        next_jolts.append(start_jolts - 3)
+    # if data.get(start_jolts - 3, False):
+    #     next_jolts.append(start_jolts - 3)
 
 
 
